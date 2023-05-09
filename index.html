@@ -1,197 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>PORTFOLIO</title>
-        <link rel="stylesheet" href="css/firstletter.css">
-        <link rel="stylesheet" href="about.html">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.3.1/instagram.min.js">
-    <link rel="stylesheet" href="css/block icons.css ">
-
-    <script>
-      window.onload = function () { 
- //Check the support for the File API support 
- if (window.File && window.FileReader && window.FileList && window.Blob) {
-    var fileSelected = document.getElementById('txtfiletoread');
-    fileSelected.addEventListener('change', function (e) { 
-         //Set the extension for the file 
-         var fileExtension = /text.*/; 
-         //Get the file object 
-         var fileTobeRead = fileSelected.files[0];
-        //Check of the extension match 
-         if (fileTobeRead.type.match(fileExtension)) { 
-             //Initialize the FileReader object to read the 2file 
-             var fileReader = new FileReader(); 
-             fileReader.onload = function (e) { 
-                 var fileContents = document.getElementById('filecontents'); 
-                 fileContents.innerText = fileReader.result; 
-             } 
-             fileReader.readAsText(fileTobeRead); 
-         } 
-         else { 
-             alert("Please select text file"); 
-         }
- 
-    }, false);
-} 
- else { 
-     alert("Files are not supported"); 
- } 
- }
-    </script>  
+<head>
+   
 
     
-      </head>
-    <body style="background-color: rgb(255, 255, 255);width: 100%; background-image: url('images/sun.jpeg'); background-repeat: no-repeat;background-size: 300%;">
-  <div class="infobox">
- 
-<h3 align="start">
-  <font face="Lato" size="6" >PORTFOLIO</font>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
-  &nbsp;&nbsp;
-  
-  
-  <font face="cinzel" >
-<a href="#" style="color: rgb(15, 15, 15); text-decoration: none;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#About" style="color: rgb(18, 18, 19); text-decoration: none">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#Experience" style="color: rgb(22, 23, 24); text-decoration: none">Experience</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#skills" style="color: rgb(23, 24, 26); text-decoration: none">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#Contact" style="color: rgb(9, 10, 10); text-decoration: none">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="boot-strap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="skills.html">
+    <link rel="stylesheet" href="Contact.html">
 
-
-
-  </font>
-
-
-
-
-
-</h3>
-
-
-<div class="wrapper">
-  <img src="images/jatin2.jpeg" alt=""  style="width: 250px;height: 350px; margin-bottom: 20px;border: 2px solid black;border-radius: 25px;margin-left: 25%;">
-  <div class="text-box">
-
-    <p >Hello,</p><br>
-  <h1>I am JATIN.</h1><br>
-  <h1>A human who always lives in a world of coding</h1>
+</head>
+<body>
+    
+  <nav>
+    <div class="logo">
+    <p style="color: rgb(244, 237, 237);">PORTFOLIO</p>
+    </div>
+    <ul>
+        <li><a href="#" style="color: rgb(239, 234, 234);">Home</a></li>
+        <li><a href="about.html" style="color: rgb(240, 229, 229);">About</a> </li>
+        <li><a href="skills.html" style="color: rgb(248, 241, 241);">Skills</a> </li>
+        <li><a href="Contact.html" style="color: rgb(249, 242, 242);">Contact</a> </li>
+    </ul>
+  </nav>
+   <div class="two">
+  <div class="backimg">
+    <img src="images/hd.jpeg" alt="" style="width: 100%;">
   </div>
-
-</div>
-<hr>
-<h1 id="About" style="text-align: center;color: rgb(3, 2, 22);">ABOUT   </h1>
-<p style="text-align: center;color: #160c0f; ">TO KNOW MORE ABOUT ME PLS DOWNLOAD MY CV</p>
-<a href="html/downloadbtn.html" download="computer" class="download-btn">Download MY CV</a>
-<i class="fa fa-download"></i>
-<div class="Education"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <div class="about-me">
-    <img src="C:\Jatin\Projects\Portfolio\images\aboutme.jpg"  height="200" style="border:3px solid rgb(9, 7, 7); border-radius: 25px;" alt="">
-  </div>
-
-</div>
-<hr>
-<script>
-
-
-
-</script>
-<div class="exp">
-<h1 id="Experience" style="text-align: center;">EXPERIENCE</h1>
-</div>
-</var>
-<div class="changes">
-  <img src="images/img ac.png" alt=""> 
-  <h1>MEMBER</h1>
-  <p>AAC GRIET</p>
-  <P>HYD TELANGANA INDIA</P>
-</div>
-
-<hr>
-
-<div class="skills">
-<h1 id="skills" style="text-align: center;">SKILLS</h1>
-</div>
-<div class="types">
-<ul>
-  <li>C Programming</li>
-  <li>HTML</li>
-  <li>CSS(cascading Style Sheet)</li>
-  <li>Microsoft Excel</li>
-   <li> Microsoft Word</li>
-   <li> Microsoft Office</li>
-</ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr>
-<h1 id="Contact" style="text-align: center;" rgb(18, 14, 231); >CONTACT</h1>
-<p style="text-align: center;color: #160c0f; margin-bottom:40px ;">U CAN CONTACT ME THROUGH SOCIAL MEDIA</p>
-<style>
-
-</style>
-<!-- <div id="div1">
-<a style="text-decoration: none;" class="social-icon" href="https://www.instagram.com/ig_jatin2005/" style="margin-left: 150%; height: 20%;">
-  <ion-icon name="logo-instagram"></ion-icon>
-</a>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<div>
-<div id="div2">
-<a class="telegram" href="https://twitter.com/login?lang=en" style="margin-left: 150%;">
-  <ion-icon name="logo-twitter"></ion-icon>
-</a>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <div class="jatinimg">
+        <img src="images/jatin1.jfif" alt="">
+    </div>
+    <div id="Home" class="names">
+        <p>I</p>
+    </div>
+    <div class="one">
+        <p>,am</p>
+    </div>
+    <div class="name">
+        <h1>J</h1>
+        <h2>ATIN</h2>
+    </div>
+</div> 
+<!-- 
+<div class="information">
+<div id="circle">
+    <div class="prt" style="color: aliceblue;"> <p> PORTFOLIO </p></div>
+    <div class="feature one" style="color: aliceblue;" > <a href="#"></a> Home</div>
+    <div class="feature t"> <a href="about.html"></a> About</div>
+    <div class="feature th">Skills</div>
+    <div class="feature f">Contact</div>
 </div>
 </div> -->
-<div>
- <a href="https://www.instagram.com/ig_jatin2005/" target="_blank"> <img src="images/insta.jpeg" alt="instagram" style="border: 1px solid black; border-radius: 100px;margin-left: 30%;height: 50px;"></a>
-<a href="https://telegram.org/"target="_blank"><img src="images/telegram.png " alt=""  style="border: 1px solid black; border-radius: 100px;margin-left: 30%;height: 50px;"></a>
-</div>
-
-<div class="copy" >
-<h2 style="color: aliceblue;background-color: rgb(13, 14, 15);text-align: center;border: 3px solid rgb(14, 11, 11);border-radius: 25px;margin-bottom: 20px;margin-top: 20%;">PAGE IS DESIGNED BY JATIN <BR>copyright(c)2023</BR></h2>
-
-
-
-</div>
-
-
 
 
 </body>
